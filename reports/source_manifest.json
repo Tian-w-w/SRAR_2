@@ -1,0 +1,97 @@
+{
+  "sources": [
+    {
+      "path": "SRAR_2.md",
+      "sha256": "52e26ab2142155f86a330c3ce4ea5bc56a7654241f12ea93a0a2a7a6b93111ba",
+      "bytes": 39830
+    },
+    {
+      "path": "stage26q2_short_base_srar.py",
+      "sha256": "7bc60742d300d756b7b31830da6e75db15ead2287bb5e8f1a5e9049bcbd72294",
+      "bytes": 53993
+    },
+    {
+      "path": "stage26q2_short_prepare.py",
+      "sha256": "9f7abbdc83eac6e5787f3bbf988ba4b760eb56746c11506b7c8477c6b2ff69ce",
+      "bytes": 18501
+    },
+    {
+      "path": "srar_paper_export/scripts/qwen2_zerotuning_sdpa_native_semantics_v2.py",
+      "sha256": "2fe7b52595a907a8685b2ae4c05cfb1bf4d390b3f2131dd0e64937a1f85f8b08",
+      "bytes": 6653
+    },
+    {
+      "path": "srar_paper_export/scripts/stage26q2_litm_srar_features.py",
+      "sha256": "1209c99a1456f0981665409aa6bfdd12764492d01661c5344a638856835f455a",
+      "bytes": 5637
+    },
+    {
+      "path": "srar_share_package_20261020/README.md",
+      "sha256": "1e8523a2bea3a4385da12dbbe85f2b59ea2f0f095bf810461604eff9fcc99ae4",
+      "bytes": 683
+    },
+    {
+      "path": "srar_share_package_20261020/RELEASE_SCOPE.md",
+      "sha256": "f60f03dedbfd59af8c96d0799e736853a24ac05afeebf4e48372436d991d7e6e",
+      "bytes": 5051
+    },
+    {
+      "path": "srar_share_package_20261020/training_calibration/TRAINING_CALIBRATION_CHAIN.md",
+      "sha256": "85c929b6a608731ca347a26098c7bbf444d89e146eef8fab3f7013aae5d828c4",
+      "bytes": 4050
+    },
+    {
+      "path": "srar_share_package_20261020/main_experiments/MAIN_RESULTS_CHAIN.md",
+      "sha256": "29e7d113b3d5e4765cdeaeeb730c1c9ccd45267964a5e8beed14203d17a04bfc",
+      "bytes": 15239
+    },
+    {
+      "path": "srar_share_package_20261020/analyses/ANALYSES_CHAIN.md",
+      "sha256": "ff1e65a5c04b7afcebe72e38e843309844e6ddfaa18e5f20b20facb1838edb63",
+      "bytes": 556
+    },
+    {
+      "path": "srar_share_package_20261020/resources/zerotuning_adaptive/runs/stage26q2_short_base_srar/sst2/selector/frozen_config.json",
+      "sha256": "52a0e09cdece51508678e3c6973eb6c859e661245b5b2f86d2b5a49d5e3123cf",
+      "bytes": 774
+    },
+    {
+      "path": "srar_share_package_20261020/resources/zerotuning_adaptive/runs/stage26q2_short_base_srar/boolq/selector/frozen_config.json",
+      "sha256": "9d3cd17cb388330ba16c3260f0cacdb5054e029d43e1856d2dcdd8cad4f475e2",
+      "bytes": 777
+    },
+    {
+      "path": "srar_share_package_20261020/resources/zerotuning_adaptive/runs/stage26q2_short_base_srar/logiqa/selector/frozen_config.json",
+      "sha256": "d72afef26b1b32ce5310d4bf1de566e7d83f81e60a2c794a02a72a26767df3fb",
+      "bytes": 772
+    },
+    {
+      "path": "srar_share_package_20261020/resources/zerotuning_adaptive/runs/stage26q2_litm_srar/frozen_config_parent.json",
+      "sha256": "98c1938ee8b2bb04a1359aea94eb8725bc39b5ce4ae4561b5007e3a8126755c8",
+      "bytes": 1038
+    },
+    {
+      "path": "srar_share_package_20261020/resources/zerotuning_adaptive/runs/stage26q2_babilong_srar/frozen_config_parent.json",
+      "sha256": "80896075f6731f3a5d89594c6a669ad861428c3f9f67a2d228ac002b861dec13",
+      "bytes": 528
+    },
+    {
+      "path": "srar_share_package_20261020/resources/zerotuning_adaptive/runs/stage26q2_ruler_srar/frozen_config_parent.json",
+      "sha256": "bc5ddb0e7e15c39eba989155c3507dacf8ab2cab95e67d88ec9ca86035c9372a",
+      "bytes": 248
+    },
+    {
+      "path": "srar_share_package_20261020/main_experiments/source/ZeroTuning_official/core algorithms/eval_classification_final.py",
+      "sha256": "23acd91c0f45c768fbe1d8d13895da3138968de8a28ba66e6efe98561981084c",
+      "bytes": 35041
+    }
+  ],
+  "copies": {
+    "legacy_short_reference.py": "75f34dcfa6fe7b6e1b818c8a8c705f3eeecf187e5179442825bdf5fabce10e37",
+    "native_operator.py": "2fe7b52595a907a8685b2ae4c05cfb1bf4d390b3f2131dd0e64937a1f85f8b08",
+    "prompts.py": "0c94ae8e9ab098629937a4831f49de2a12cb6d3a4375de9fbed55c6980409435",
+    "scoring.py": "84b95c98edeb4f9e6f5f7b8e935282512e0eff74f20ab91251b21da07be2cb5a",
+    "__init__.py": "cd114a797e436972798e14c04b437f3e9f5949dca011550f3684ecf408e79a66"
+  },
+  "selection": "Root short pipeline plus paper-export native operator; sharing frozen runtime values only; no old outputs reused"
+}

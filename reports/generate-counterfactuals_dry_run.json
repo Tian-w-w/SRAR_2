@@ -1,0 +1,12 @@
+{
+  "command": "generate-counterfactuals",
+  "selected_rows": 0,
+  "max_samples": 16,
+  "generations_without_cache": 0,
+  "counterfactual_actions_per_row": 9,
+  "verified_cache_hits": 0,
+  "pending_actions": 0,
+  "warning": "Cache verification requires matching model hashes; dry-run never assumes old outputs reusable",
+  "initial_features_from_single_pass": true,
+  "real_experiment_completed": false
+}

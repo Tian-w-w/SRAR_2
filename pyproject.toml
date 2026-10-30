@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "srar2"
+version = "0.1.0"
+description = "Joint anchor and coefficient advantage prediction for frozen Qwen2"
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.20", "torch>=2.5", "PyYAML>=6"]
+
+[project.optional-dependencies]
+gpu = ["transformers==4.53.2", "accelerate>=1.0", "safetensors>=0.4"]
+test = ["pytest>=7"]
+
+[project.scripts]
+srar2 = "srar2.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,61 @@
+{
+  "status": "blocked_for_real_experiment",
+  "task": "boolq",
+  "environment": {
+    "python": "3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "torch": "2.8.0+cpu",
+    "numpy": "1.20.0",
+    "cuda_available": false
+  },
+  "protocol_sha256": "abe131f335a6c1b12a9d0eb162bcbb249836aa144b58b7c08a6cf39144c70ce5",
+  "action_schema_sha256": "c6303697eb7347de84a8ed24d8ff20a8c1c014655258c70c1d31932b95c3ada4",
+  "feature_schema_sha256": "528460d8a837d28344352222158dfe72ef834b40b63bbf26a76e841a7c72df54",
+  "code_sha256": "7bb82e82336d7089fc0587455ef7b961012d40a4917c553c4dadb66e02906fd2",
+  "action_schema": {
+    "schema_version": "srar2-v1",
+    "gamma_values": [
+      0.95,
+      0.76,
+      1.14
+    ],
+    "anchors": [
+      "RE",
+      "RM",
+      "RL"
+    ],
+    "coefficient_ids": [
+      "BASE",
+      "LOW",
+      "HIGH"
+    ],
+    "action_order": [
+      "RE:BASE",
+      "RM:BASE",
+      "RL:BASE",
+      "RE:LOW",
+      "RE:HIGH",
+      "RM:LOW",
+      "RM:HIGH",
+      "RL:LOW",
+      "RL:HIGH"
+    ],
+    "tensor_shape": [
+      3,
+      3
+    ]
+  },
+  "missing": [
+    "train_manifest",
+    "dev_manifest",
+    "local_Qwen2_7B_Base_weights_and_tokenizer",
+    "transformers==4.53.2",
+    "CUDA_GPU_for_real_BF16_smoke"
+  ],
+  "data_audit": {
+    "status": "assets_missing",
+    "counts": {}
+  },
+  "old_outputs_reused": false,
+  "real_experiment_completed": false
+}

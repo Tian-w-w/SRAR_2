@@ -1,0 +1,7 @@
+# Install torch separately with a Blackwell-capable CUDA build, see README.
+transformers==4.53.2
+accelerate==1.14.0
+safetensors>=0.4
+numpy==2.2.6
+PyYAML==6.0.2
+pytest==8.4.2

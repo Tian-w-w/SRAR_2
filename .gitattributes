@@ -1,0 +1,5 @@
+# Preserve frozen operator bytes and hashes across Windows/Linux checkouts.
+* -text
+* whitespace=cr-at-eol
+# AST-extracted upstream docstrings retain their original blank-line spaces.
+src/srar2/vendor/scoring.py whitespace=cr-at-eol,-blank-at-eol

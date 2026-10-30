@@ -1,0 +1,8 @@
+{
+  "command": "python -B -m pytest -q",
+  "exit_code": 0,
+  "elapsed_seconds": 8.406888200000001,
+  "python": "3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]",
+  "real_backbone_used": false,
+  "real_experiment_completed": false
+}
